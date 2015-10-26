@@ -1,0 +1,24 @@
+<!--
+<h1>{{title}}</h1>
+
+<div class="row">
+    <browse-album ng-repeat="album in newReleases.albums.items" id="album.id"></browse-album>
+</div>
+-->
+<table class="table">
+    <thead>
+        <tr>
+            <th>from</th>
+            <th>to</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="redirection in redirections | orderBy : ['from', 'to']">
+            <td>{{redirection.from}}</td>
+            <td>{{redirection.to}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<pre class="well">{{domains | json}}</pre>
+<pre class="well">{{redirections | json}}</pre>

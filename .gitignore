@@ -1,1 +1,5 @@
+.DS_Store
 node_modules
+
+public/lib/*
+!public/lib/sha1.js

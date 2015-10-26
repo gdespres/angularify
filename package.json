@@ -1,0 +1,29 @@
+{
+  "name": "angularify",
+  "version": "0.0.1",
+  "description": "Un client angularjs utilisant l'api spotify",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdespres/angularify.git"
+  },
+  "author": "gwenael.despres@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gdespres/angularify/issues"
+  },
+  "homepage": "https://github.com/gdespres/angularify#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "querystring": "^0.2.0",
+    "request": "^2.65.0"
+  }
+}

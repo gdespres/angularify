@@ -1,0 +1,23 @@
+<div class="media-object media-object-album col-sm-3 col-md-3 col-lg-2">
+    <div class="mo-wrapper">
+        <div class="mo-image-wrapper">
+            <a ng-href="#/album/{{album.id}}">
+                <div class="mo-image" style="background-image: url('{{album.images[1].url}}')"></div>
+            </a>
+        </div>
+        <div class="mo-info subtitle">
+            <div class="mo-info-wrapper">
+                <a class="mo-title" title="{{album.name}}" ng-href="#/album/{{album.id}}">
+                    <span class="mo-title-border">
+                        {{album.name}}
+                    </span>
+                </a>
+                <div class="mo-subtitle text-muted">
+                    <a ng-href="#/artist/{{album.artists[0].id}}" title="{{album.artists[0].name}}">
+                        {{album.artists[0].name}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

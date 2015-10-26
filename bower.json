@@ -1,0 +1,14 @@
+{
+    "name": "angularify",
+    "description": "Un client angularjs utilisant l'api spotify",
+    "version": "0.0.1",
+    "homepage": "https://github.com/gdespres/angularify#readme",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "angular": "~1.4.0",
+        "angular-route": "~1.4.0",
+        "angular-i18n": "~1.4.0",
+        "bootstrap": "~3.3.0"
+    }
+}

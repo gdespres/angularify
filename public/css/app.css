@@ -1,0 +1,57 @@
+.media-object {
+    margin-bottom: 15px;
+}
+
+.mo-wrapper {
+    overflow: hidden;
+}
+.mo-image-wrapper {
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+}
+.mo-image {
+    background: no-repeat;
+}
+.mo-image,
+.mo-image-background,
+.mo-image-background-color {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.mo-info {
+    background-color: #222326;
+    padding: 13px 8px 4px;
+    height: 63px;
+}
+.mo-info.subtitle {
+    height: 90px;
+}
+.mo-info-wrapper {
+    height: 100%;
+    position: relative;
+}
+/*
+.mo-title {
+
+}
+.mo-title-border {
+}
+*/
+.mo-subtitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mo-description,
+.mo-meta,
+.mo-subtitle,
+.mo-title {
+    display: block;
+    margin: 0 0 8px;
+    max-width: 100%:
+}
